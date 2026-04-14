@@ -69,6 +69,15 @@ public abstract class BaseInteractivePuzzlePieceXR : MonoBehaviour
         }
     }
 
+    public void FlipUp()
+    {
+        activateState = true;
+    }
+
+    public void FlipDown()
+    {
+        activateState = false;
+    }
     protected abstract void ApplyActiveState ();
 
     protected abstract void ApplyInactiveState ();

@@ -5,11 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/FlipperMR.unity
+    guid: 2c1dddf776c6c45a790ae1d2775a086e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f1295863a1cd34a518454733a9669115, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ddb33420b21a94bf1bbc7684524c6062, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6121376bcf8fd4a2bbb8cbb635907c05, type: 2}
   m_UseUCBPForAssetBundles: 0
